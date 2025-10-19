@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+  
+    <h1>Клиент-серверное взаимодействие</h1>
+    <form class = "create-post-form">
+        <h2>Создание Поста</h2>
+        <p>
+        <label for="new-post-title">Заголовок поста:</label>
+        <input id="new-post-title" name="title" />
+        </p>
+        <p>
+        <label for="new-post-id">Идентификатор поста:</label>
+        <input id="new-post-id" name="id" type="number" />
+        </p>
+        <button type=" submit"> Сохранить пост на сервер</button>
+    </form>
+    <form class="load-post-form">
+        <h2>Поиск поста по ID</h2>
+        <p>
+            <label for="post-id">Идентификатор задачи:</label>
+            <input id="post-id" type="number" value="1" />
+      </p>
+      <button type="submit">
+        Загрузить информацию с сервера
+      </button>
+    </form>
+
+    <div class="result"></div>
+
+</html>
+<script src="/traine.js"></script>

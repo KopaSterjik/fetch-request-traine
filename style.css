@@ -1,0 +1,45 @@
+body {
+  padding: 1rem;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(124, 190, 241);
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h1 {
+  margin-block: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form,
+.result {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+form {
+  background-color: bisque;
+  margin: 10px;
+}
+
+.result {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: lightblue;
+  width: 50%;
+}
+
+.result:empty {
+  display: none;
+}
